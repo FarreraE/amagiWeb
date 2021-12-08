@@ -9,15 +9,15 @@ body {
   background: linear-gradient(90deg, #0d2a27 50%, #105450 50%);
 }
 
-.container-main {
+.row {
   height: 100%;
 }
 
-.container-main .left-main {
+.row .left-main {
   background-color: #0d2a27;
 }
 
-.container-main .right-main {
+.row .right-main {
   background-color: #105450;
 }
 
@@ -38,7 +38,12 @@ body {
 
 .topBlock .right-main .logo {
   opacity: 0.1;
-  width: 70%;
+  width: 65%;
+}
+
+.middleBlock {
+  border-top: 0.15rem solid #fff;
+  border-bottom: 0.15rem solid #fff;
 }
 
 .middleBlock .left-main {
@@ -55,6 +60,16 @@ body {
 }
 
 .middleBlock .right-main ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0px;
 }
 
@@ -64,6 +79,10 @@ body {
   color: #9ed1ae;
   list-style: none;
   font-size: 3rem;
+}
+
+.bottomBlock {
+  margin-top: 5%;
 }
 
 .bottomBlock .left-main {
@@ -79,12 +98,11 @@ body {
 }
 
 .bottomBlock .right-main {
-  padding-top: 2%;
-  padding-left: 5%;
+  padding-top: 4%;
 }
 
 .bottomBlock .right-main ul {
-  padding: 0px;
+  padding-left: 4%;
 }
 
 .bottomBlock .right-main ul li {
