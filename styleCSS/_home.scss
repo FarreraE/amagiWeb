@@ -5,7 +5,7 @@
         display: flex;
         justify-content: center;
         .logo {
-            opacity: 0.2;
+            opacity: 0.05;
             width: 80%;
         }
     }
@@ -19,6 +19,7 @@
         }
     }
     .right-main {
+        padding-left: 5%;
         ul {
             // background-color: blue;
             padding: 0px;
@@ -39,13 +40,15 @@
         p {
             opacity: 0.6;
             color: #fff;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             text-align: center;
             font-family: "Acme", sans-serif;
         }
     }
     .right-main {
-        display: none;
+        padding-top: 4%;
+        padding-left: 12%;
+     //   display: none;
         ul {
             //background-color: blue;
             padding: 0px;
@@ -61,3 +64,7 @@
         }
     }
 }
+
+/*git remote add origin https://github.com/FarreraE/amagi.git
+git branch -M main
+git push -u origin main*/

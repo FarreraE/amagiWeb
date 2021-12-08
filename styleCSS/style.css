@@ -22,7 +22,7 @@ body {
 }
 
 .whiteBlock {
-  height: 0.05rem;
+  height: 0.1rem;
   background-color: #fff;
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .topBlock .right-main .logo {
-  opacity: 0.2;
+  opacity: 0.05;
   width: 80%;
 }
 
@@ -48,6 +48,10 @@ body {
 .middleBlock .left-main .logo {
   width: 100%;
   opacity: 0.5;
+}
+
+.middleBlock .right-main {
+  padding-left: 5%;
 }
 
 .middleBlock .right-main ul {
@@ -69,13 +73,14 @@ body {
 .bottomBlock .left-main p {
   opacity: 0.6;
   color: #fff;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
   font-family: "Acme", sans-serif;
 }
 
 .bottomBlock .right-main {
-  display: none;
+  padding-top: 4%;
+  padding-left: 12%;
 }
 
 .bottomBlock .right-main ul {
@@ -90,4 +95,8 @@ body {
   font-size: 1.8rem;
   opacity: 0.8;
 }
+
+/*git remote add origin https://github.com/FarreraE/amagi.git
+git branch -M main
+git push -u origin main*/
 /*# sourceMappingURL=style.css.map */
