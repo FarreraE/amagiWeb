@@ -1,12 +1,12 @@
 .topBlock {
-
     .right-main {
         padding: 5%;
         display: flex;
-        justify-content: center;
+        justify-content:center;
+        //background-color: blue;
         .logo {
-            opacity: 0.05;
-            width: 80%;
+            opacity: 0.1;
+            width: 70%;
         }
     }
 }
@@ -46,8 +46,8 @@
         }
     }
     .right-main {
-        padding-top: 4%;
-        padding-left: 12%;
+        padding-top: 2%;
+        padding-left: 5%;
      //   display: none;
         ul {
             //background-color: blue;

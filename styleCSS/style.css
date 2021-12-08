@@ -37,8 +37,8 @@ body {
 }
 
 .topBlock .right-main .logo {
-  opacity: 0.05;
-  width: 80%;
+  opacity: 0.1;
+  width: 70%;
 }
 
 .middleBlock .left-main {
@@ -79,8 +79,8 @@ body {
 }
 
 .bottomBlock .right-main {
-  padding-top: 4%;
-  padding-left: 12%;
+  padding-top: 2%;
+  padding-left: 5%;
 }
 
 .bottomBlock .right-main ul {
