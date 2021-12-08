@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(13, 42, 39);
+    background: linear-gradient(90deg, rgba(13, 42, 39, 1) 50%, rgba(16, 84, 80, 1) 50%);
+}
+.container-main {
+    height: 100%;
+    .left-main {
+        background-color: #0d2a27;
+    }
+
+    .right-main {
+        background-color: #105450;
+    }
+}
+.whiteBlock {
+    height: 0.05rem;
+    background-color: #fff;
+}
+
+@import "_home"

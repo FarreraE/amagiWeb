@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0d2a27;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #0d2a27), color-stop(50%, #105450));
+  background: linear-gradient(90deg, #0d2a27 50%, #105450 50%);
+}
+
+.container-main {
+  height: 100%;
+}
+
+.container-main .left-main {
+  background-color: #0d2a27;
+}
+
+.container-main .right-main {
+  background-color: #105450;
+}
+
+.whiteBlock {
+  height: 0.05rem;
+  background-color: #fff;
+}
+
+.topBlock .right-main {
+  padding: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.topBlock .right-main .logo {
+  opacity: 0.2;
+  width: 80%;
+}
+
+.middleBlock .left-main {
+  padding: 5%;
+}
+
+.middleBlock .left-main .logo {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.middleBlock .right-main ul {
+  padding: 0px;
+}
+
+.middleBlock .right-main ul li {
+  height: 3.2rem;
+  font-family: "Bebas Neue", cursive;
+  color: #9ed1ae;
+  list-style: none;
+  font-size: 3rem;
+}
+
+.bottomBlock .left-main {
+  padding: 5%;
+}
+
+.bottomBlock .left-main p {
+  opacity: 0.6;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Acme", sans-serif;
+}
+
+.bottomBlock .right-main {
+  display: none;
+}
+
+.bottomBlock .right-main ul {
+  padding: 0px;
+}
+
+.bottomBlock .right-main ul li {
+  height: 2rem;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  list-style: none;
+  font-size: 1.8rem;
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
