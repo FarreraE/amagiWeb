@@ -106,6 +106,8 @@ body {
 
 .bottomBlock {
   padding-top: 2%;
+  padding-bottom: 10%;
+  border-bottom: 0.2rem solid white;
 }
 
 .bottomBlock .left-main {
@@ -309,6 +311,5 @@ git push -u origin main*/
 
 .test {
   height: 50vh;
-  background-color: yellow;
 }
 /*# sourceMappingURL=style.css.map */
