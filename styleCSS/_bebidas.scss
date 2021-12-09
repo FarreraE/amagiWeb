@@ -21,11 +21,15 @@
             width: 100%;
             opacity: 0.5;
         }
+        .clover{
+            width: 80%;
+            opacity: 0.2;
+        }
     }
-
-    color: #9dcdac;
+    color:rgba(255, 255, 255, 0.8);
+    
     .drinkSection {
-        color: #fff;
+        color: #9dcdac;
         font-size: 2.4rem;
         font-family: "Morpheus";
         padding-left: 4%;
@@ -58,4 +62,5 @@
 }
 .test {
     height: 50vh;
+    background-color: #0d2a27;
 }
