@@ -320,4 +320,46 @@ git push -u origin main*/
   height: 50vh;
   background-color: #0d2a27;
 }
+
+.ginBlock .gintonicCard {
+  height: 32vh;
+  padding-top: 10%;
+}
+
+.ginBlock .gintonicCard .bottleGin .btl {
+  width: 120%;
+}
+
+.ginBlock .gintonicCard .ginDescription {
+  color: white;
+  margin-top: 8%;
+  height: 60%;
+  padding: 0%;
+}
+
+.ginBlock .gintonicCard .ginDescription .ginTitle {
+  font-size: 2.2rem;
+  font-family: "Morpheus";
+  height: 30%;
+  padding: 0%;
+  padding-bottom: 20%;
+  margin: 0%;
+}
+
+.ginBlock .gintonicCard .ginDescription .ginDescription {
+  font-size: 0.8rem;
+  font-family: "Acme", cursive;
+  height: 40%;
+  padding: 0%;
+  padding-bottom: 20%;
+  margin: 0%;
+}
+
+.ginBlock .gintonicCard .ginDescription .ginTopping {
+  font-size: 1rem;
+  font-family: "Bebas Neue", cursive;
+  height: 15%;
+  padding: 0%;
+  margin: 0%;
+}
 /*# sourceMappingURL=style.css.map */

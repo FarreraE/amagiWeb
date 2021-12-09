@@ -1,0 +1,45 @@
+.ginBlock {
+    .gintonicCard {
+        height: 32vh;
+        //background-color: blueviolet;
+        padding-top: 10%;
+        .bottleGin {
+            .btl {
+                width: 120%;
+            }
+        }
+        .ginDescription {
+            color: white;
+           // background-color: chartreuse;
+            margin-top: 8%;
+            height: 60%;
+            padding: 0%;
+            .ginTitle {
+                font-size: 2.2rem;
+                font-family: "Morpheus";
+                //      background-color: yellow;
+                height: 30%;
+                padding: 0%;
+                padding-bottom: 20%;
+                margin: 0%;
+            }
+            .ginDescription {
+                font-size: 0.8rem;
+                font-family: "Acme", cursive;
+                // background-color: blue;
+                height: 40%;
+                padding: 0%;
+                padding-bottom: 20%;
+                margin: 0%;
+            }
+            .ginTopping {
+                font-size: 1rem;
+                font-family: "Bebas Neue", cursive;
+                //     background-color: red;
+                height: 15%;
+                padding: 0%;
+                margin: 0%;
+            }
+        }
+    }
+}
