@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: "Morpheus";
+    src: url(../fonts/MORPHEUS.TTF);
+}
 body {
     background: rgb(13, 42, 39);
     background: linear-gradient(90deg, rgba(13, 42, 39, 1) 50%, rgba(16, 84, 80, 1) 50%);
 }
-.row{
-    height: 100%;
+.container-fluid {
+    background-color: #0d2a27;
+}
+.row {
     .left-main {
         background-color: #0d2a27;
     }
@@ -15,10 +21,11 @@ body {
     .right-main {
         background-color: #105450;
     }
-}
-.whiteBlock {
-    height: 0.1rem;
-    background-color: #fff;
+    .right-mainAlternative {
+        background-color: #0d2a27;
+    }
 }
 
-@import "_home"
+@import "_home";
+@import "_menu";
+@import "_bebidas";

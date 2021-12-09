@@ -1,23 +1,32 @@
 .topBlock {
+    padding-bottom: 10%;
+    .left-main {
+        padding-top: 5%;
+    }
     .right-main {
-        padding: 5%;
-        display: flex;
-        justify-content: center;
         //background-color: blue;
-        .logo {
-            opacity: 0.1;
-            width: 65%;
+        padding-top: 5%;
+        .logoContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            .logo {
+                opacity: 0.1;
+                width: 90%;
+            }
         }
     }
 }
 .middleBlock {
+    margin-top: 100%;
     border-top: 0.15rem solid #fff;
     border-bottom: 0.15rem solid #fff;
     .left-main {
-        padding: 5%;
+        padding-top: 5%;
         .logo {
             width: 100%;
-            opacity: 0.5;
+            opacity: 0.8;
         }
     }
     .right-main {
@@ -40,7 +49,7 @@
     }
 }
 .bottomBlock {
-    margin-top: 5%;
+    padding-top: 2%;
     .left-main {
         padding: 5%;
         p {
@@ -53,7 +62,7 @@
     }
     .right-main {
         padding-top: 4%;
-        //   display: none;
+        display: none;
         ul {
             //background-color: blue;
             padding-left: 4%;

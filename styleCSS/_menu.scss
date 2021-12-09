@@ -1,0 +1,71 @@
+.cartaTiltle {
+    font-size: 3rem;
+    padding-top: 10%;
+    color: white;
+    text-align: center;
+    font-family: "Morpheus";
+    //   background-color: red;
+}
+
+.mealCardContainer {
+    padding-bottom: 20%;
+    .mealCard {
+        margin-top: 20%;
+        background-color: #105450;
+        border-radius: 0.8rem;
+        padding-top: 15%;
+        h3 {
+            color: #9dcdac;
+            font-family: "Bebas Neue", cursive;
+            font-size: 2rem;
+            line-height: 1.8rem;
+        }
+        p {
+            color: #fff;
+            font-family: "Acme", sans-serif;
+            font-size: 0.8rem;
+            text-align: center;
+            opacity: 0.6;
+        }
+        .price {
+            font-family: "Bebas Neue", cursive;
+            font-size: 1rem;
+            padding-bottom: 15%;
+            color: #9dcdac;
+            text-align: center;
+        }
+    }
+    .logoContainerFoodmenu {
+        margin-top: 50%;
+        display: flex;
+        justify-content: center;
+        .logo {
+            transform: scale(1.2);
+            width: 100%;
+            opacity: 0.6;
+        }
+    }
+}
+.right-mainAlternative {
+    .logoContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        .logoM {
+            opacity: 0.5;
+            width: 100%;
+        }
+    }
+}
+
+.logoContainer {
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    .logo {
+        transform: scale(1.2);
+        width: 100%;
+        opacity: 0.6;
+    }
+}
